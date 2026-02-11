@@ -1,0 +1,10 @@
+import random
+L=[]
+for i in range(20):
+   L.append(random.randint(1,50))
+print("Generated list: ",L)
+
+unique_numbers=list(set(L))
+
+print("\nList after removing duplicates: ")
+print(unique_numbers)
