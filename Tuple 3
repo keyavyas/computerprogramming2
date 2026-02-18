@@ -1,0 +1,14 @@
+from datetime import date
+
+# Two date tuples (day, month, year)
+date1 = (10, 2, 2024)
+date2 = (18, 2, 2024)
+
+# Convert tuples into date objects
+d1 = date(date1[2], date1[1], date1[0])
+d2 = date(date2[2], date2[1], date2[0])
+
+# Find difference in days
+difference = abs(d2 - d1)
+
+print("Number of days between the two dates =", difference.days)
