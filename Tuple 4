@@ -1,0 +1,7 @@
+tood
+list-|("Burger", ("Burger", ("Pizza", ("Pizza",250), ("Pasta", 180), ("Sandwich", 90) ]
+print ("Original List: ")
+print (food_list)
+sorted_list=sorted (food list, key-lambda x: [1], reverse-True)
+print ("\nSorted List (Descending by Price):")
+print (sorted_list)
