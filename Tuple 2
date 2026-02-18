@@ -1,0 +1,10 @@
+students=l (1, "Navya", 18), (2, "Keya", 18), (3, "Nandana", 18), (4, "Dhruvi", 20) 1
+name
+list=ll
+age_list=ll
+for ele in students:
+roll_list. append (ele [01)
+name
+list. append (ele [1])
+age_list.append (ele[2])
+print ("Roll Numbers =", roll list) print ("Names =", name_list) print ("Age=", age_list)
