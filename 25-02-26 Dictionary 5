@@ -1,0 +1,21 @@
+# Dictionary 1: Grocery items with prices
+price = {
+    "rice": 50,
+    "sugar": 40,
+    "milk": 30
+}
+
+# Dictionary 2: Grocery items with quantity purchased
+quantity = {
+    "rice": 2,
+    "sugar": 1,
+    "milk": 3
+}
+
+total = 0
+
+# Calculate total bill
+for item in price:
+    total += price[item] * quantity[item]
+
+print("Total Bill =", total)
