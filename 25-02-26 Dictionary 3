@@ -1,0 +1,7 @@
+empo-("e1": [1,10000], "e2": [2,20000], "e3": [1,13000], "e4": [2, 19000])
+dept-set (v[0] tor v in empo. values ())
+for d in dept:
+salaties-[V[1) to v in empd.values () İf v[0]==d]
+print ("Department", d)
+PEInE ("MIn salary: ", min (salaries) )
+Print ('max salazy: ", max (salaries))
