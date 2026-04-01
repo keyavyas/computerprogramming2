@@ -1,0 +1,10 @@
+def sum_list(lst, n):
+    if n == 0:
+        return 0
+    return lst[n - 1] + sum_list(lst, n - 1)
+
+def average(lst):
+    return sum_list(lst, len(lst)) / len(lst)
+
+lst = list(map(int, input("Enter list elements: ").split()))
+print("Average:", average(lst))
